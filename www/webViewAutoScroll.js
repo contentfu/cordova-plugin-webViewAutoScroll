@@ -1,4 +1,4 @@
-cordova.define("com.rusted.plugins.webViewAutoScroll", function(require, exports, module) { 	var exec = require('cordova/exec');
+cordova.define("cordova-plugin-webViewAutoScroll", function(require, exports, module) { 	var exec = require('cordova/exec');
        module.exports = {
        enable : function() {
                exec(null, null, "WebViewAutoScroll", "enable", []);
