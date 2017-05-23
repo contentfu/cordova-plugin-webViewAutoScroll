@@ -10,7 +10,7 @@
 #import "AppDelegate.h"
 
 static BOOL isInvalidated = NO;
-
+//false
 @interface WebViewAutoScroll()<UIScrollViewDelegate>
 
 @end
