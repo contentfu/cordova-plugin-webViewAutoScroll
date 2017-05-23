@@ -21,7 +21,7 @@
 <plugin
       xmlns="http://apache.org/cordova/ns/plugins/1.0"
       id="cordova-plugin-webViewAutoScroll"
-      version="0.1.0">
+      version="0.1.1">
 
     <name>WebViewAutoScroll</name>
     <description>Cordova WebViewAutoScroll Plugin</description>
