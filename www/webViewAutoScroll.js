@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-webViewAutoScroll", function(require, exports, module) { 	var exec = require('cordova/exec');
+       var exec = require('cordova/exec');
        module.exports = {
        enable : function() {
                exec(null, null, "WebViewAutoScroll", "enable", []);
@@ -10,5 +10,3 @@ cordova.define("cordova-plugin-webViewAutoScroll", function(require, exports, mo
        exec(null, null, "WebViewAutoScroll", "invalidate", []);
        },
    };
-               
-});
